@@ -59,21 +59,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11642}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12310}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 14370}
+      Script: {instanceID: 14404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -128,27 +128,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11642}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 12310}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12482}
     - Class: 114
-      Script: {instanceID: 13238}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 14370}
+      Script: {instanceID: 13336}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 14404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -420,7 +426,7 @@ ScriptsOnlyBuild:
     className: ScriptCanos
   - hash:
       serializedVersion: 2
-      Hash: 25157563dfb936c68a5a321ec9c7fe07
+      Hash: f5d3ac6663e999e306a2c51f746e91dc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FasesMan
@@ -716,4 +722,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/build_dos_jogos/felpudo/felpudo2.apk
+  playerPath: C:/desenv/unity/JogoFelpix2D/JogoFelpix2D.apk

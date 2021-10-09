@@ -16,8 +16,8 @@ public class ScriptFelpudoPlayer : MonoBehaviour
     GameObject gameEngine;
 
 
-void Start()
-{
+void Start() {
+		Screen.orientation = ScreenOrientation.Landscape;
     GetComponent<Rigidbody2D>().isKinematic = true;
     gameEngine = GameObject.FindGameObjectWithTag("GameEngine");
 }
@@ -53,8 +53,7 @@ void Start()
 		}
 	
 	}
-    void OnCollisionEnter2D()
-	{ 
+    void OnCollisionEnter2D() 	{ 
 		GetComponent<Collider2D>().enabled = false;
 		GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		
@@ -64,10 +63,8 @@ void Start()
 		gameEngine.SendMessage("FimDeJogo");
 	gameEngine.GetComponent<AudioSource>().PlayOneShot(somHit);
 	}
-    void OnTriggerExit2D(Collider2D col)
-    {
-        if(col.CompareTag("AreaVao"))
-        {
+    void OnTriggerExit2D(Collider2D col)     {
+        if(col.CompareTag("AreaVao"))         {
             gameEngine.SendMessage("marcaPonto"); 
 			gameEngine.GetComponent<AudioSource>().PlayOneShot(somScore);
 		}

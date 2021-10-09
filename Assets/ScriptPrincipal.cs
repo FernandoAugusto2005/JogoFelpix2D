@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScriptPrincipal : MonoBehaviour
 {
@@ -16,16 +17,13 @@ public class ScriptPrincipal : MonoBehaviour
 
     public GameObject savePoints;
 
-    void Update()
-    {     
-        if(Input.GetButtonDown("Fire1")  && terminouJogo)
-        {
-            Application.LoadLevel("SampleScene");
+    void Update()   {     
+        if(Input.GetButtonDown("Fire1")  && terminouJogo) {
+	   SceneManager.LoadScene("SampleScene");
         }
     }
 
-    void Satrt()
-    {
+    void Satrt()    {
         textoPontuacao.gameObject.SetActive(false);
         textoMensagem.gameObject.SetActive(true);
         textoMensagemPontuacao.gameObject.SetActive(false);
